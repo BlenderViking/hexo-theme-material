@@ -68,7 +68,7 @@ background:
 # Images Settings
 img:
     logo: "/img/logo.png"
-    avatar: "/img/avatar.png"
+    avatar: "/images/profit.jpg"
     daily_pic: "bing"
     #daily_pic: "https://api.i-meto.com/bing"
     #daily_pic: "/img/daily_pic.png"
