@@ -11,7 +11,7 @@ head:
 
 # Jump Links Settings
 url:
-    rss: 
+    rss: "/atom.xml"
     daily_pic: "#"
     logo: 
 
@@ -69,7 +69,9 @@ background:
 img:
     logo: "/img/logo.png"
     avatar: "/img/avatar.png"
-    daily_pic: "/img/daily_pic.png"
+    daily_pic: "bing"
+    #daily_pic: "https://api.i-meto.com/bing"
+    #daily_pic: "/img/daily_pic.png"
     sidebar_header: "/img/sidebar_header.png"
     footerico: "/img/footer/footer_ico-"
     #upyun_logo: "/img/upyun_logo.png"
@@ -140,4 +142,4 @@ busuanzi:
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 # Google analytics
-google_analytics:
+google_analytics: "UA-6717439-7"

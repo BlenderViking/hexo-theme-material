@@ -34,6 +34,16 @@
     $(window).load(function() {
         // Post_Toc parent position fixed
         $(".post-toc-wrap").parent(".mdl-menu__container").css("position", "fixed");
+
+        // Daily picture
+        <% if(theme.img.daily_pic == "bing") { %>
+        var url = '//query.yahooapis.com/v1/public/yql?q=' + encodeURIComponent('select * from json where url=@url') +
+            '&url=' + encodeURIComponent('https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1') +
+            '&format=json&callback=?';
+        $.getJSON(url, function(query) {
+            $('#daily_picture_container').css("background-image", "url(//www.bing.com" + query.query.results.json.images.url + ")");
+        });
+        <% } %>
     });
 </script>
 
