@@ -101,6 +101,10 @@ dropdown:
         link: "https://twitter.com/BlenderViking"
         icon: twitter
         iconSource: font-awesome
+    Github:
+        link: "https://github.com/BlenderViking"
+        icon: github
+        iconSource: font-awesome
 
 # Pages Menu
 pages:
