@@ -86,7 +86,7 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email:
+    email: "Contact Me"
     twitter: "https://twitter.com/BlenderViking"
     facebook:
     googleplus:
@@ -97,9 +97,10 @@ sns:
 
 # Sidebar User Dropdown
 dropdown: 
-    Email Me: 
-        link: "#"
-        icon: email
+    Tweet Me:
+        link: "https://twitter.com/BlenderViking"
+        icon: twitter
+        iconSource: font-awesome
 
 # Pages Menu
 pages:

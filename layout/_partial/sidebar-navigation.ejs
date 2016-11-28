@@ -5,7 +5,11 @@
 			<% for (var i in theme.dropdown){ %>
                 <li>
                     <a href="<%= theme.dropdown[i].link %>" target="_blank" title="<%= i %>">
-						<i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element"><%= theme.dropdown[i].icon %></i>
+                        <% if(theme.dropdown[i].iconSource == 'material') { %>
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element"><%= theme.dropdown[i].icon %></i>
+                        <% } else if(theme.dropdown[i].iconSource == 'font-awesome') { %>
+                            <i class="fa fa-<%= theme.dropdown[i].icon %> sidebar-material-icons sidebar-indent-left1pc-element" aria-hidden="true"></i>
+                        <% } %>
                         <%= i %>
                     </a>
                 </li>

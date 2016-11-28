@@ -4981,3 +4981,7 @@ a {
 .fa-percent:before {
     content: "\f295"
 }
+i.fa.sidebar-material-icons.sidebar-indent-left1pc-element {
+	vertical-align: super;
+	font-size: x-large;
+}
