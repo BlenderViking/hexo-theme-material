@@ -86,14 +86,14 @@ fonts: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    twitter: "https://twitter.com/twitter"
-    facebook: "https://www.facebook.com/facebook"
-    googleplus: "https://www.google.com/"
+    email:
+    twitter: "https://twitter.com/BlenderViking"
+    facebook:
+    googleplus:
     weibo: 
     instagram: 
     tumblr: 
-    github: 
+    github: "https://github.com/BlenderViking/"
 
 # Sidebar User Dropdown
 dropdown: 
