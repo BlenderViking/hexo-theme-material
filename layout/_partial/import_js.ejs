@@ -43,12 +43,12 @@
         $.getJSON(url, function(query) {
             var random = Math.round(Math.random() * 8 - 0.5);
             var img = query.query.results.json.images[random];
-            var $dailyPictureContainer = $('#daily_picture_container');
-            $dailyPictureContainer.css("background-image", "url(//www.bing.com" + img.urlbase + "_800x600.jpg)");
-            $dailyPictureContainer.attr("title",  img.copyright);
-            $dailyPictureContainer.on('click', function() {
+            var $dailyPictureContainer = document.getElementById('daily_picture_container');
+            $dailyPictureContainer.style.backgroundImage = "url(//www.bing.com" + img.urlbase + "_800x600.jpg)";
+            $dailyPictureContainer.setAttribute("title",  img.copyright);
+            $dailyPictureContainer.onclick = function() {
                 window.open(img.copyrightlink,'_blank');
-            });
+            };
         });
         <% } %>
     });
